@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    height: 128px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.header-content {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    margin: 0 48px;
+}
+
+.header-logo-parent{
+    padding-left: 20px;
+    margin-left: 20px;
+    border-left: 1px solid #eee;
+}
+
+.header-menu{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu-item{
+    font-size: 18px;
+    padding: 8px;
+    margin-left: 8px;
+    
+}
