@@ -3,6 +3,19 @@
     src: url('./fonts/Dana-Regular.woff');
 }
 
+@font-face {
+    font-family: 'mor';
+    src: url('./fonts/Morabba-Bold.woff');
+}
+
+
+@font-face {
+    font-family: 'dana bold';
+    src: url('./fonts/Dana-DemiBold.woff');
+}
+
+
+
 *{
     font-family: 'dana';
 }
