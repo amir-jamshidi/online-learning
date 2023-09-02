@@ -13,22 +13,119 @@
     margin: 0 48px;
 }
 
-.header-logo-parent{
+.header-logo-parent {
     padding-left: 20px;
     margin-left: 20px;
     border-left: 1px solid #eee;
 }
 
-.header-menu{
+.header-menu {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.header-menu-item{
+.header-menu-item {
     font-size: 18px;
-    padding: 8px;
-    margin-left: 8px;
-    
+    padding: 8px 12px 8px 16px;
+
+    cursor: pointer;
+
+}
+
+.header-menu-item:hover {
+    color: #8CD57C;
+}
+
+.header-avatar {
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    margin-right: 18px;
+}
+
+.header-switch-theme {
+    width: 56px;
+    height: 56px;
+    background-color: #F3F4F6;
+    border-radius: 50%;
+    margin-right: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-avatar-menu {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-search-parent {
+    display: flex;
+    position: relative;
+    width: 192px;
+    height: 56px;
+    background-color: #F3F4F6;
+    border-radius: 999px;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.header-search-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-right: 16px;
+    color: #64748B;
+}
+
+.header-search-parent:hover {
+    width: 256px;
+    border: 1px solid #E5E7EB;
+}
+
+.header-right-section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+.header-theme-icon {
+    position: absolute;
+    left: 16px;
+}
+
+.header-drop-front {
+    display: none;
+    background-color: #FFF;
+    flex-direction: column;
+    z-index: 1;
+    min-width: 256px;
+    border-radius: 16px;
+    box-shadow: 0 0 3px #ddd;
+    padding: 12px;
+}
+
+.header-menu-item:hover .header-drop-front {
+    display: flex;
+}
+
+.header-drop-front>a {
+    text-decoration: none;
+    color: #3f3f46;
+    padding: 8px 6px;
+    font-size: 16px;
+}
+
+.header-drop-front>a:hover {
+    color: #8CD57C
+}
+
+.header-drop-front-parent {
+    position: absolute;
+    padding-top: 18px;
 }
