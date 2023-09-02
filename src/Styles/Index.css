@@ -2,6 +2,20 @@
     padding-top: 100px;
 }
 
+.index-box-color{
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    background-color: #0ea5e9;
+    border-radius: 100%;
+    top: 350px;
+    right: -400px;
+    filter: blur(50px);
+    opacity: 0.2;
+    z-index: -1;
+}
+
+
 .index-right-title {
     display: flex;
     flex-direction: column;
@@ -23,6 +37,7 @@
     margin-bottom: 16px;
     width: 470px;
 }
+
 
 
 .index-boy-light {
@@ -138,7 +153,6 @@
 
 .index-last-course-item {
     background-color: #fff;
-    box-shadow: 0 0 2px #999;
     border-radius: 16px;
     min-height: 200px;
 }

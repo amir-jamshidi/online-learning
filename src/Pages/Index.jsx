@@ -47,6 +47,7 @@ const Index = () => {
       </section>
 
       <section className="section-index">
+        <div className="index-box-color"></div>
         <div className="container">
           <div className="row">
             <div className="col-12">
