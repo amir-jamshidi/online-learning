@@ -2,7 +2,7 @@
     padding-top: 100px;
 }
 
-.index-box-color{
+.index-box-color {
     position: absolute;
     width: 650px;
     height: 650px;
@@ -134,6 +134,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .title-section-link {
@@ -155,11 +156,13 @@
     background-color: #fff;
     border-radius: 16px;
     min-height: 200px;
+    margin-bottom: 16px;
 }
 
 .index-last-course-item img {
     width: 100%;
     border-radius: 16px;
+
 }
 
 .index-last-course-body {
@@ -223,47 +226,154 @@
     display: flex;
 }
 
-.star-icon{
+.star-icon {
     color: #FBBF24;
 }
 
-.star-text{
+.star-text {
     color: #FBBF24;
     margin-left: 3px;
 }
 
-.index-last-item-hr{
+.index-last-item-hr {
     margin: 0;
     padding: 0;
     color: #ccc;
     margin: 8px 0;
 }
 
-.users-icon{
+.users-icon {
     font-size: 20px;
     color: #3f3f46;
     height: 23px;
 }
 
-.index-last-users-count{
+.index-last-users-count {
     color: #3f3f46;
     font-size: 16px;
     line-height: 24px;
     margin-right: 4px;
-   
+
 }
 
-.index-last-users{
+.index-last-users {
     display: flex;
 }
 
-.index-last-price-parent{
+.index-last-price-parent {
     display: flex;
     justify-content: space-between;
 }
 
-.index-last-price-title{
+.index-last-price-title {
     font-size: 20px;
     color: #2ed573;
     line-height: 28px;
+}
+
+/*-------------------------------*/
+
+.index-cards {
+    height: 160px;
+    background: linear-gradient(to left, #F2295B, #FEB435);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-card-title {
+    font-family: 'dana bold';
+    color: #FFF;
+    font-size: 24px;
+    margin-top: 8px;
+
+}
+
+.index-card-icon {
+    font-size: 40px;
+    color: #FFF;
+}
+
+.index-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------ */
+
+.index-info-card{
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.index-info-card-img-icon{
+    width: 80px;
+    height: 80px;
+    color: #4FBEEF;
+    margin-left: 16px;
+}
+
+.index-info-card-name{
+    color: #3f3f46;
+    font-size: 20px;
+    font-family: 'dana bold';
+    margin-bottom: 8px;
+}
+
+.index-info-card-sub-title{
+    font-size:16px ;
+    font-family: 'dana light';
+    color: #64748b;
+}
+
+/*-------------------*/
+.index-article-parent{
+    background-color: #FFF;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.index-article-img{
+    width: 100%;
+}
+.index-article-title{
+    font-family: 'dana medium';
+    font-size: 16px;
+    color: #3f3f46;
+}
+
+.index-article-sub-title{
+    font-size: 14px;
+    color: #64748b;
+    overflow: hidden;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+            line-clamp: 4; 
+    -webkit-box-orient: vertical
+}
+
+.index-article-content{
+    padding: 12px;
+}
+
+.index-article-show{
+    font-family: 'dana medium';
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #3f3f46;
+    transition: 0.2s;
+}
+
+.index-article-show:hover{
+    color: #22C55E;
+    cursor: pointer;
 }

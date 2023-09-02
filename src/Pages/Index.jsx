@@ -1,8 +1,13 @@
 import { BsFillPlayFill } from "react-icons/bs";
-import { AiOutlineUser , AiFillStar } from "react-icons/ai";
-import { BiTimeFive } from "react-icons/bi";
-import { HiOutlineUsers } from "react-icons/hi2";
+import Card from "../Components/Card/Card";
+import InfoSection from "../Components/InfoSection/InfoSection";
+import SingleCourse from "../Components/SingleCourse/SingleCourse";
+
 import "../Styles/Index.css";
+import TitleSection from "./../Components/SingleCourse/TitleSection";
+import LastCourseSlider from "./../Components/LastCourseSlider/LastCourseSlider";
+import SingleArticle from './../Components/SingleArticle/SingleArticle';
+
 
 const Index = () => {
   return (
@@ -50,67 +55,64 @@ const Index = () => {
         <div className="index-box-color"></div>
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <div className="title-section">
-                <div>
-                  <div className="title-section-title-parent">
-                    <span className="point"></span>
-                    <h3 className="title-section-title">آخرین دوره ها</h3>
-                  </div>
-                  <p className="title-section-sub-title">
-                    سکوی پرتاپ شما به سمت موفقیت
-                  </p>
-                </div>
+            <TitleSection />
 
-                <a href="" className="title-section-link">مشاهده همه دوره ها</a>
-              </div>
-            </div>
+            <SingleCourse />
+            <SingleCourse />
+            <SingleCourse />
+            <SingleCourse />
+            <SingleCourse />
+            <SingleCourse />
+            <SingleCourse />
+            <SingleCourse />
+          </div>
+        </div>
+      </section>
 
-            <div className="col-3">
-              <div className="index-last-course-item">
-                <img src="/images/react-course.png" alt="" />
-                <div className="index-last-course-body">
-                    <span className="index-last-course-cate">فرانت اند</span>
-                    <p className="index-last-course-title">آموزش تخصصی React JS</p>
-                    <p className="index-last-course-sub-title">
-                    ‌کتابخانه‌ها باعث افزایش سرعت کدنویسی میشن. در حدی که تو بازار کار هم از کتابخانه های مختلفی برای توسعه پروژه‌ها…
-                    </p>
-                    <div className="index-last-icons-parent">
-                      <div className="index-last-icons-content">
-                      <div className="index-last-icon-teacher">
-                          <AiOutlineUser className="index-last-icon"/>
-                          <span className="index-last-icon-title">امیرجمشیدی</span>
-                        </div>
-                        <div className="index-last-icon-time">
-                          <BiTimeFive className="index-last-icon"/>
-                          <span className="index-last-icon-title">39:38</span>
-                        </div>
-                      </div>
-                       
-                       <div>
-                        <span className="index-last-icon-title star-text">5.0</span>
-                       <AiFillStar className="star-icon"/>
-                       </div>
+      <section className="section-index">
+        <div className="container">
+          <div className="row">
+            <TitleSection />
 
-                    </div>
-                    <hr className="index-last-item-hr" />
-                    <div className="index-last-price-parent">
-                      <div className="index-last-users">
-                          <HiOutlineUsers className="users-icon"/>
-                          <span className="index-last-users-count">1093</span>
-                      </div>
-                      <div className="index-last-price">
-                          <span className="index-last-price-title">1,400,000</span>      
-                      </div>
-                      
-                    </div>
-                </div>
-              </div>
-            </div>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
+        </div>
+      </section>
 
+      <section className="section-index">
+        <div className="container">
+          <div className="row">
+            <TitleSection />
 
-              
+            <InfoSection />
+            <InfoSection />
+            <InfoSection />
+            <InfoSection />
+          </div>
+        </div>
+      </section>
 
+      <section className="section-index">
+        <div className="container">
+          <div className="row">
+            <TitleSection />
+            <LastCourseSlider />
+          </div>
+        </div>
+      </section>
+
+      <section className="section-index">
+        <div className="container">
+          <div className="row">
+            <TitleSection />
+
+            <SingleArticle/>
+            <SingleArticle/>
+            <SingleArticle/>
+            <SingleArticle/>
           </div>
         </div>
       </section>

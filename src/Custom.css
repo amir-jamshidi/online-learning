@@ -4,6 +4,14 @@
 }
 
 @font-face {
+    font-family: 'dana medium';
+    src: url('./fonts/DanaFaNum-Medium.ttf');
+}
+@font-face {
+    font-family: 'dana light';
+    src: url('./fonts/DanaFaNum-Light.ttf');
+}
+@font-face {
     font-family: 'mor';
     src: url('./fonts/Morabba-Bold.woff');
 }
