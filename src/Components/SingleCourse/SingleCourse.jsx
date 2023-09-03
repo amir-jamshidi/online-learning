@@ -1,9 +1,10 @@
 import { AiOutlineUser , AiFillStar } from "react-icons/ai";
 import { BiTimeFive } from "react-icons/bi";
 import { HiOutlineUsers } from "react-icons/hi2";
+
 const SingleCourse = ({slider}) => {
   return (
-    <div className={slider ? '' : 'col-3'}>
+    <div className={slider ? '' : 'col-12 col-md-6 col-lg-3'}>
       <div className="index-last-course-item">
         <img src="/images/react-course.png" alt="" />
         <div className="index-last-course-body">
@@ -39,6 +40,8 @@ const SingleCourse = ({slider}) => {
             </div>
             <div className="index-last-price">
               <span className="index-last-price-title">1,400,000</span>
+              
+              <img src="/images/toman.svg" className="index-toman-svg" alt="" />
             </div>
           </div>
         </div>

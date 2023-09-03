@@ -1,0 +1,33 @@
+.footer{
+    background-color: #FFF;
+    padding: 24px;
+    margin-top: 100px ;
+}
+.footer-title{
+    font-family: 'mor';
+    text-align: center;
+    color: #3f3f46;
+}
+
+.footer-sub-title{
+    text-align: center;
+    color: #3f3f46;
+    margin-bottom: 8px;
+}
+
+.footer-end-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text-end{
+    font-size: 14px;
+    margin: 0;
+    color: #3f3f46;
+}
+.footer-icon{
+    color: red;
+    margin-right: 3px;
+}

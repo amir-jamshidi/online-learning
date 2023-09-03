@@ -12,33 +12,35 @@ import SingleArticle from './../Components/SingleArticle/SingleArticle';
 const Index = () => {
   return (
     <>
-      <section className="section-index">
+
+    
+      <section className="section-index first-section">
         <div className="container">
-          <div className="row">
-            <div className="col-6">
+          <div className="row flex-column-reverse flex-lg-row">
+            <div className="col-12 col-lg-6 mt-3 mt-lg-0">
               <div className="index-right-title">
-                <div>
-                  <h1>ما به هر قیمتی</h1>
-                  <h1>دوره تولید نمیکنیم !</h1>
-                  <p>
+                <div className="w-100">
+                  <h1 className="text-center mb-0 index-h1-title">ما به هر قیمتی</h1>
+                  <h1 className="text-center index-h1-title">دوره تولید نمیکنیم !</h1>
+                  <p className="w-100 text-center font index-left-sub-title">
                     با آکادمی خصوصی سبزلرن، علم برنامه نویسی رو با خیال راحت یاد
                     بگیر و پیشرفت کن
                   </p>
                 </div>
-                <div className="index-left-btn-parent">
+                <div className="index-left-btn-parent w-100 d-flex justify-content-center justify-content-lg-start">
                   <button className="index-right-btn-start">
                     از اینجا شروع کن
                   </button>
                   <div className="index-right-parent">
                     <span className="index-right-btn-play">
-                      <BsFillPlayFill />
+                      <BsFillPlayFill className="index-play-icon" />
                     </span>
                     <span className="index-who-we-are">ما کی هستیم ؟</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <div className="index-left-img">
                 <img
                   className="index-boy-light"
@@ -94,6 +96,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+
 
       <section className="section-index">
         <div className="container">

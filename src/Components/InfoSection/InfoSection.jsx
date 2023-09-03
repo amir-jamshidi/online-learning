@@ -2,7 +2,7 @@ import { MdTipsAndUpdates } from "react-icons/md";
 
 const InfoSection = () => {
   return (
-    <div className="col-6">
+    <div className="col-12 col-md-6 col-lg-3">
       <div className="index-info-card">
         <div className="index-info-card-img">
           <span>

@@ -3,7 +3,7 @@ import { CiViewTimeline } from "react-icons/ci";
 
 const SingleArticle = ()=>{
     return(
-        <div className="col-3">
+        <div className="col-12 col-mg-6 col-lg-3 mb-3 mb-lg-0">
         <div className="index-article-parent">
           <img
             className="index-article-img"

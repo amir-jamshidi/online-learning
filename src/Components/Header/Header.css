@@ -128,3 +128,33 @@
     position: absolute;
     padding-top: 18px;
 }
+
+/**/
+
+.header-img-span-parent{
+    width: 56px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-icon-small{
+    width: 36px;
+    height: 36px;
+}
+
+.header-avatar-small{
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:576px){
+    .header-content{
+            margin: 0 12px ;
+    }
+
+    .header{
+        height: 88px;
+    }
+}

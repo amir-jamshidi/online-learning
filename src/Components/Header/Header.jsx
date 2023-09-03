@@ -1,5 +1,6 @@
-import { BsSearch, BsMoon } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs";
 import { CiDark } from "react-icons/ci";
+import { IoIosMenu } from "react-icons/io";
 
 import "./Header.css";
 import HeaderDropDown from "./HeaderDropDown";
@@ -9,7 +10,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="container-fluid">
-          <div class="row">
+          <div class="row d-none d-lg-flex">
             <div className="col-6">
               <div className="header-right-section">
                 <div className="header-logo-parent">
@@ -96,6 +97,26 @@ const Header = () => {
                   src="/images/user.jpg"
                   width={56}
                   height={56}
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          
+          <div className="row d-flex d-lg-none">
+            <div className="col-12">
+              <div className="d-flex justify-content-between align-items-center">
+                <span className="header-img-span-parent">
+                  <IoIosMenu className="header-icon-small"/>
+                </span>
+                <div className="">
+                  <img src="/images/logo.webp" width={80} height={52} alt="" />
+                </div>
+                <img
+                  className="header-avatar-small"
+                  src="/images/user.jpg"
+                  width={48}
+                  height={48}
                   alt=""
                 />
               </div>

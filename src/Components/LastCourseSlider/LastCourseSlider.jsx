@@ -1,23 +1,63 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import SingleCourse from "./../SingleCourse/SingleCourse";
-import { BiTimeFive } from "react-icons/bi";
-import { AiFillStar, AiOutlineUser } from "react-icons/ai";
-import { HiOutlineUsers } from "react-icons/hi2";
+
+import "swiper/css";
+import "swiper/css/autoplay";
+import { Autoplay } from 'swiper/modules';
 
 const LastCourseSlider = () => {
   return (
-    <Swiper spaceBetween={24} slidesPerView={4} loop={true}>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
-      <SwiperSlide><SingleCourse slider={true} /></SwiperSlide>
+    <Swiper
+    modules={[Autoplay]}
+      spaceBetween={24}
+      slidesPerView={4}
+      loop={true}
+      breakpoints={{
+        0: {
+          slidesPerView: 1,
+        },
+        576: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 4,
+        },
+      }}
+      autoplay={{
+        delay: 2000,
+        disableOnInteraction: false,
+      }}
+    >
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
+      <SwiperSlide>
+        <SingleCourse slider={true} />
+      </SwiperSlide>
     </Swiper>
   );
 };
