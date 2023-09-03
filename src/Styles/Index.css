@@ -1,19 +1,18 @@
 .section-index {
     padding-top: 100px;
+    position: relative;
+    overflow: hidden !important;
 }
 
-.index-box-color {
-    position: absolute;
-    width: 650px;
-    height: 650px;
-    background-color: #0ea5e9;
-    border-radius: 100%;
-    top: 350px;
-    right: -400px;
-    filter: blur(50px);
-    opacity: 0.2;
-    z-index: -1;
+.courses-section{
+   position: relative;
+   
 }
+
+.card-section{
+    position: relative;
+}
+
 
 .index-left-sub-title {
     font-size: 18px !important;

@@ -1,0 +1,10 @@
+.index-box-color {
+    position: absolute;
+    width: 650px;
+    height: 500px;
+    border-radius: 100%;
+    filter: blur(100px);
+    opacity: 0.2;
+    z-index: -1;
+    
+}

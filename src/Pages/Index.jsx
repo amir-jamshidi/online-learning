@@ -7,6 +7,7 @@ import "../Styles/Index.css";
 import TitleSection from "./../Components/SingleCourse/TitleSection";
 import LastCourseSlider from "./../Components/LastCourseSlider/LastCourseSlider";
 import SingleArticle from './../Components/SingleArticle/SingleArticle';
+import ParentColorBox from './../Components/ParentColorBox/ParentColorBox';
 
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
 
     
       <section className="section-index first-section">
+      <ParentColorBox property={{left : -450 , top:'0px' , backgroundColor : 'green'}} />
         <div className="container">
           <div className="row flex-column-reverse flex-lg-row">
             <div className="col-12 col-lg-6 mt-3 mt-lg-0">
@@ -53,8 +55,8 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="section-index">
-        <div className="index-box-color"></div>
+      <section className="section-index courses-section">
+      <ParentColorBox property={{right : -450 , top:'280px' , backgroundColor : 'red'}} />
         <div className="container">
           <div className="row">
             <TitleSection />
@@ -71,7 +73,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="section-index">
+      <section className="section-index card-section">
         <div className="container">
           <div className="row">
             <TitleSection />

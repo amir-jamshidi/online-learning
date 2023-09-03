@@ -19,7 +19,6 @@ const TitleSection = () => {
             مشاهده همه دوره ها
           </a>
           </div>
-
         </div>
       </div>
     </div>
