@@ -119,7 +119,6 @@
     width: 14px;
     height: 14px;
     display: inline-block;
-    background-color: red;
     border-radius: 2px;
 }
 
@@ -137,12 +136,11 @@
 }
 
 .title-section-sub-title {
-    font-size: 20px;
+    font-size: 18px;
     color: #64748b;
 }
 
 .title-section {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
@@ -286,7 +284,6 @@
 
 .index-cards {
     height: 160px;
-    background: linear-gradient(to left, #F2295B, #FEB435);
     border-radius: 20px;
     display: flex;
     align-items: center;

@@ -10,7 +10,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="container-fluid">
-          <div class="row d-none d-lg-flex">
+          <div className="row d-none d-lg-flex">
             <div className="col-6">
               <div className="header-right-section">
                 <div className="header-logo-parent">

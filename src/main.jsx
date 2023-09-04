@@ -6,9 +6,9 @@ import './Custom.css'
 import "bootstrap/dist/css/bootstrap.css";
 
 createRoot(document.querySelector("#root")).render(
-  <StrictMode>
+  // <StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </StrictMode>
+  // </StrictMode>
 );
